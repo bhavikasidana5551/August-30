@@ -1,15 +1,12 @@
-//use 1printf to print, 2int x is first declared then used with %d, 3\n to use enter
 #include <stdio.h>
-int main()
-{
-    int x;
-    x=1;
-    printf("%d",x );
-    printf(". my name is Bhavika Sidana\n");
-    int y;
-    y = 2;
-    printf("%d",y);
-    printf(". it's my first time on earth so please forbid me for any mistake!");
 
+int main() {
+    int a, b, sum;
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+    sum = a + b;
+    printf("The sum of %d and %d is: %d\n", a, b, sum);
     return 0;
 }
